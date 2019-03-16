@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Ahorcado</string>
+    <string name="logo_juego">logo juego</string>
+    <string name="tiempo_splash">1000</string>
+    <string name="debug_name">XACA</string>
+    <string name="categoria_imagen">categoria imagen</string>
+    <string name="boton_puntaje">boton puntaje</string>
+    <string name="gano_partida">Muy bien gano la partida</string>
+    <string name="perdio_partida">Ha perdido la partida</string>
+</resources>

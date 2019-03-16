@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="lista_categorias">
+        <item name="Actores" >Actores</item>
+        <item name="Cine">Cine</item>
+        <item name="Deportes">Deportes</item>
+        <item name="Frutas">Frutas</item>
+        <item name="Música">Música</item>
+        <item name="Paises">Países</item>
+    </string-array>
+</resources>
