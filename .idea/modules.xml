@@ -4,6 +4,7 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/Ahorcado.iml" filepath="$PROJECT_DIR$/Ahorcado.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/dynamic_feature/dynamic_feature.iml" filepath="$PROJECT_DIR$/dynamic_feature/dynamic_feature.iml" />
     </modules>
   </component>
 </project>
