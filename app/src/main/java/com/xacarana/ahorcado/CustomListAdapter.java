@@ -14,9 +14,9 @@ import android.widget.TextView;
 public class CustomListAdapter extends ArrayAdapter<String> {
 
     private int[] img_categorias = {
-            R.drawable.categoria_peliculas,R.drawable.categoria_cine,
+            R.drawable.categoria_peliculas, R.drawable.categoria_cine,
             R.drawable.categoria_deportes, R.drawable.categoria_frutas,
-            R.drawable.categoria_musica,R.drawable.categoria_paises};
+            R.drawable.categoria_musica, R.drawable.categoria_paises};
 
     public CustomListAdapter(Context context, int resource, int textViewResourceId, String[] objects) {
         super(context, resource, textViewResourceId, objects);

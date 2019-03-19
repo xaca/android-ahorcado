@@ -26,7 +26,7 @@ public class Juego extends Activity implements View.OnClickListener{
     ImageView iv;
     ImageButton ib;
     int estado_partida;
-    int imagenes_juego[] = {R.drawable.ahorcado_01,R.drawable.ahorcado_02,R.drawable.ahorcado_03,R.drawable.ahorcado_04,R.drawable.ahorcado_05,R.drawable.ahorcado_06,R.drawable.ahorcado_07};
+    int imagenes_juego[] = {R.drawable.ahorcado_01, R.drawable.ahorcado_02, R.drawable.ahorcado_03, R.drawable.ahorcado_04, R.drawable.ahorcado_05, R.drawable.ahorcado_06, R.drawable.ahorcado_07};
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -45,7 +45,7 @@ public class Juego extends Activity implements View.OnClickListener{
         ib.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent = new Intent(Juego.this,SeccionPuntaje.class);
+                Intent intent = new Intent(Juego.this, SeccionPuntaje.class);
                 startActivity(intent);
 
             }
@@ -92,7 +92,7 @@ public class Juego extends Activity implements View.OnClickListener{
     @Override
     public void onClick(View view) {
         //Log.d("CLICK",""+view.getId());
-        
+
         view.setEnabled(false);
         if(la.validarLetra(getLetra(view.getId()).toLowerCase().charAt(0))) {
             view.setBackgroundColor(Color.GREEN);

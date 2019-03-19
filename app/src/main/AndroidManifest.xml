@@ -1,4 +1,3 @@
-<?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.xacarana.ahorcado">
 
@@ -22,5 +21,4 @@
         <activity android:name="com.xacarana.ahorcado.Juego" android:screenOrientation="landscape" />
         <activity android:name="com.xacarana.ahorcado.SeccionPuntaje" android:screenOrientation="landscape"></activity>
     </application>
-
 </manifest>
