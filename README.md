@@ -35,7 +35,7 @@ En este repositorio se incluye el código de un proyecto nativo desarrollado en 
     **Clave del almacen** Clave del almacen, primero se debe ingrear al almacen para usar la llave
     **Clave de la llave** Clave de la llave con la cual se firmará la aplicación
 
-    > Se pueden dejar las llaves guardadas para firmar más rápido la aplicación, 
+    > Se pueden dejar las llaves guardadas para firmar más rápido la aplicación,   
     > sin embargo la recomendación siempre es poner la llave.  
 
     ![Instrucciones de publicación android](https://i.imgur.com/7us1EG0.png)
@@ -43,7 +43,7 @@ En este repositorio se incluye el código de un proyecto nativo desarrollado en 
 7.  **Ruta del proyecto** Es la ruta actual del proyecto, esto se asigna por defecto  
     
     > Build Variants, es una sección en el IDE de android, que permite configurar si la aplicación va a ser firmada para:
-    > debug: es para hacer pruebas en el emulador o para release: es para subir a la tienda de aplicaciones.
+    > debug: es para hacer pruebas en el emulador o para release: es para subir a la tienda de aplicaciones.  
     > Luego se deben seleccionar las dos tipos de firmas V1 y V2
 
     ![Instrucciones de publicación android](https://i.imgur.com/PE6MjlC.png)
@@ -59,13 +59,30 @@ En este repositorio se incluye el código de un proyecto nativo desarrollado en 
 
 ## Firmar la aplicación con una llave previamente creada
 
-1. ![Instrucciones de publicación android](https://i.imgur.com/fKavzmf.png) 
-2. ![Instrucciones de publicación android](https://i.imgur.com/J2ebdjZ.png)
-3. ![Instrucciones de publicación android](https://i.imgur.com/dcRA9Zp.png)
-4. ![Instrucciones de publicación android](https://i.imgur.com/xoBGl1o.png)
-5. ![Instrucciones de publicación android](https://i.imgur.com/4UoFuZJ.png)
+    > Una vez configurada la llave, las próximas veces que se quiera firmar la aplicación  
+    > Solo se deben seguir unos pasos mínimos, recuerde que si ya subió una vez la aplicación  
+    > a la tienda, debe cear una nueva versión con la misma firma. 
+
+1. Seleccionamos la opción para generar el APK firmado  
+    ![Instrucciones de publicación android](https://i.imgur.com/fKavzmf.png)
+
+2. Por defecto sale seleccionada la opción APK  
+    ![Instrucciones de publicación android](https://i.imgur.com/J2ebdjZ.png)
+
+3. Se ingresan las claves del almacen de llaves y de la llave  
+    ![Instrucciones de publicación android](https://i.imgur.com/dcRA9Zp.png)
+
+4. Se selecciona la opción de firma para realse y se seleccionan las dos opciones de firma
+    ![Instrucciones de publicación android](https://i.imgur.com/xoBGl1o.png)
+
+5. En este paso ya quedo firmada la aplicación (Pendiente la explicación de como subir en la tienda)
+    ![Instrucciones de publicación android](https://i.imgur.com/4UoFuZJ.png)
 
 ## Referencias
 
 [Icon Archive, de este sitio use algunos iconos para las categorias del juego](http://www.iconarchive.com/)  
 [Iconos para el logo y para la sección score](https://thenounproject.com/)  
+[Instrucciones de android](https://developer.android.com/studio/publish/app-signing)
+[¿Cómo usar la firma?](https://support.google.com/googleplay/android-developer/answer/7384423)
+[Google developer console](https://developer.android.com/)
+[Aplicación publicada](https://play.google.com/store/apps/details?id=com.xacarana.ahorcado)
