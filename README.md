@@ -6,13 +6,16 @@ En este repositorio se incluye el código de un proyecto nativo desarrollado en 
 
 > Se recomienda haber realizado una prueba previa usando una firma en modo ddebug, en un emulador o directamente en un dispositivo, estas pruebas solo sirven para probar la aplicación, no sirven para subir la aplicación a la tienda. Para firmar la aplicación asumimos que el proyecto ya tiene al menos un APK sin firmar.
 
-1.  Ir al menú build y seleccionar la opción Generate Signed Bundle /APK, esta opción nos ermite exportar el APK firmado de nuestra app, y si no tenemos creada una clave para firmar la aplicación por acá lo podemos hacer.
+1.  Ir al menú build y seleccionar la opción Generate Signed Bundle /APK, esta opción nos ermite exportar el APK firmado de nuestra app, y si no tenemos creada una clave para firmar la aplicación por acá lo podemos hacer  
+
     ![Instrucciones de publicación android](https://i.imgur.com/hnu2wk7.png)
 
-2.  Seleccionamos la opción APK y le damos siguiente.
+2.  Seleccionamos la opción APK y le damos siguiente  
+
     ![Instrucciones de publicación android](https://i.imgur.com/BzGs5JJ.png)
 
-3.  En la siguiente pantalla vemos una serie de opciones que deben ser diligenciadas, muy importante guardar los passwords en un lugar seguro, fuera del proyecto, ya que siempre vamos a necesitar esta información para firmar la aplicación
+3.  En la siguiente pantalla vemos una serie de opciones que deben ser diligenciadas, muy importante guardar los passwords en un lugar seguro, fuera del proyecto, ya que siempre vamos a necesitar esta información para firmar la aplicación  
+
     ![Instrucciones de publicación android](https://i.imgur.com/ogLxIuu.png)
 
 
@@ -21,9 +24,11 @@ En este repositorio se incluye el código de un proyecto nativo desarrollado en 
 **Nombre de la llave** Es un alias o apodo que se le da a la llave, puede ser cualquier valor, ojala sin espacios y sin caracteres especiales  
 **Clave de la llave** Clave de la llave, se pedirá más adelante  
 **datos de quien publica** Estos datos son los de la empresa o la persona que publica la aplicación  
+
     ![Instrucciones de publicación android](https://i.imgur.com/YflS7qt.png)
 
-5.  Datos para configurar la firma de la aplicación, si no se han creado se deben llenar, recuerde guardar esta información en un lugar diferente al repositorio del proyecto
+5.  Datos para configurar la firma de la aplicación, si no se han creado se deben llenar, recuerde guardar esta información en un lugar diferente al repositorio del proyecto  
+
     ![Instrucciones de publicación android](https://i.imgur.com/MIFVEwV.png)
 
 6.  ![Instrucciones de publicación android](https://i.imgur.com/7us1EG0.png)
