@@ -11,3 +11,6 @@
 /build
 /captures
 .externalNativeBuild
+/llave
+/insumos_publicacion
+/app/release
