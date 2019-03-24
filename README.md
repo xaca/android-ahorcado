@@ -82,7 +82,7 @@ En este repositorio se incluye el código de un proyecto nativo desarrollado en 
 
 [Icon Archive, de este sitio use algunos iconos para las categorias del juego](http://www.iconarchive.com/)  
 [Iconos para el logo y para la sección score](https://thenounproject.com/)  
-[Instrucciones de android](https://developer.android.com/studio/publish/app-signing)
-[¿Cómo usar la firma?](https://support.google.com/googleplay/android-developer/answer/7384423)
-[Google developer console](https://developer.android.com/)
-[Aplicación publicada](https://play.google.com/store/apps/details?id=com.xacarana.ahorcado)
+[Instrucciones de android](https://developer.android.com/studio/publish/app-signing)  
+[¿Cómo usar la firma?](https://support.google.com/googleplay/android-developer/answer/7384423)  
+[Google developer console](https://developer.android.com/)  
+[Aplicación publicada](https://play.google.com/store/apps/details?id=com.xacarana.ahorcado)  
