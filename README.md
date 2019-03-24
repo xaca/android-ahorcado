@@ -54,14 +54,14 @@ En este repositorio se incluye el código de un proyecto nativo desarrollado en 
 9.  Al terminar el proceso la APK queda creada y firmada, lista para su publicación, en la opción locate se puede abrir directamente el archivo donde queda almacenada.  
     ![Instrucciones de publicación android](https://i.imgur.com/jc9w4F8.png)
 
-10. Esta queda en la carpeta realease de los archivos del proyecto  
+10. La aplicación firmada queda en la carpeta realease de los archivos del proyecto  
     ![Instrucciones de publicación android](https://i.imgur.com/juTL0s9.png)
 
 ## Firmar la aplicación con una llave previamente creada
 
-    > Una vez configurada la llave, las próximas veces que se quiera firmar la aplicación  
-    > Solo se deben seguir unos pasos mínimos, recuerde que si ya subió una vez la aplicación  
-    > a la tienda, debe cear una nueva versión con la misma firma. 
+    Una vez configurada la llave, las próximas veces que se quiera firmar la aplicación  
+    Solo se deben seguir unos pasos mínimos, recuerde que si ya subió una vez la aplicación  
+    a la tienda, debe cear una nueva versión con la misma firma. 
 
 1. Seleccionamos la opción para generar el APK firmado  
     ![Instrucciones de publicación android](https://i.imgur.com/fKavzmf.png)
