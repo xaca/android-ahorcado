@@ -19,11 +19,11 @@ En este repositorio se incluye el código de un proyecto nativo desarrollado en 
     ![Instrucciones de publicación android](https://i.imgur.com/ogLxIuu.png)
 
 
-4.  **Ruta donde se guardará el almacen de claves** Esta es una ubicación donde se guardan de manera segura las claves en el computador   
+4.  **Ruta donde se guardará el almacen de claves** Esta es una ubicación donde se guardan de manera segura las claves en el computador, puede ser asignada por el usuario.   
 **clave del almacen** Clave para acceder al almacen  
 **Nombre de la llave** Es un alias o apodo que se le da a la llave, puede ser cualquier valor, ojala sin espacios y sin caracteres especiales  
 **Clave de la llave** Clave de la llave, se pedirá más adelante  
-**datos de quien publica** Estos datos son los de la empresa o la persona que publica la aplicación  
+**Datos de quien publica** Estos datos son los de la empresa o la persona que publica la aplicación  
 
     ![Instrucciones de publicación android](https://i.imgur.com/YflS7qt.png)
 
@@ -31,15 +31,41 @@ En este repositorio se incluye el código de un proyecto nativo desarrollado en 
 
     ![Instrucciones de publicación android](https://i.imgur.com/MIFVEwV.png)
 
-6.  ![Instrucciones de publicación android](https://i.imgur.com/7us1EG0.png)
-7.  ![Instrucciones de publicación android](https://i.imgur.com/PE6MjlC.png)
-8.  ![Instrucciones de publicación android](https://i.imgur.com/CJvpYW8.png)
-9.  ![Instrucciones de publicación android](https://i.imgur.com/jc9w4F8.png)
-10. ![Instrucciones de publicación android](https://i.imgur.com/juTL0s9.png)
-11. ![Instrucciones de publicación android](https://i.imgur.com/fKavzmf.png) 
-12. ![Instrucciones de publicación android](https://i.imgur.com/J2ebdjZ.png)
-13. ![Instrucciones de publicación android](https://i.imgur.com/dcRA9Zp.png)
-14. ![Instrucciones de publicación android](https://i.imgur.com/xoBGl1o.png)
-15. ![Instrucciones de publicación android](https://i.imgur.com/4UoFuZJ.png)
+6.  **Ruta del almacen de llaves** Es la ruta donde se guardo el almacen creado en el paso anterior
+    **Clave del almacen** Clave del almacen, primero se debe ingrear al almacen para usar la llave
+    **Clave de la llave** Clave de la llave con la cual se firmará la aplicación
+
+    > Se pueden dejar las llaves guardadas para firmar más rápido la aplicación, 
+    > sin embargo la recomendación siempre es poner la llave.  
+
+    ![Instrucciones de publicación android](https://i.imgur.com/7us1EG0.png)
+
+7.  **Ruta del proyecto** Es la ruta actual del proyecto, esto se asigna por defecto  
+    
+    > Build Variants, es una sección en el IDE de android, que permite configurar si la aplicación va a ser firmada para:
+    > debug: es para hacer pruebas en el emulador o para release: es para subir a la tienda de aplicaciones.
+    > Luego se deben seleccionar las dos tipos de firmas V1 y V2
+
+    ![Instrucciones de publicación android](https://i.imgur.com/PE6MjlC.png)
+
+8.  Al finalizar el proceso, se empieza a construir el archivo APK firmado  
+    ![Instrucciones de publicación android](https://i.imgur.com/CJvpYW8.png)
+
+9.  Al terminar el proceso la APK queda creada y firmada, lista para su publicación, en la opción locate se puede abrir directamente el archivo donde queda almacenada.  
+    ![Instrucciones de publicación android](https://i.imgur.com/jc9w4F8.png)
+
+10. Esta queda en la carpeta realease de los archivos del proyecto  
+    ![Instrucciones de publicación android](https://i.imgur.com/juTL0s9.png)
+
+## Firmar la aplicación con una llave previamente creada
+
+1. ![Instrucciones de publicación android](https://i.imgur.com/fKavzmf.png) 
+2. ![Instrucciones de publicación android](https://i.imgur.com/J2ebdjZ.png)
+3. ![Instrucciones de publicación android](https://i.imgur.com/dcRA9Zp.png)
+4. ![Instrucciones de publicación android](https://i.imgur.com/xoBGl1o.png)
+5. ![Instrucciones de publicación android](https://i.imgur.com/4UoFuZJ.png)
 
 ## Referencias
+
+[Icon Archive, de este sitio use algunos iconos para las categorias del juego](http://www.iconarchive.com/)  
+[Iconos para el logo y para la sección score](https://thenounproject.com/)  
